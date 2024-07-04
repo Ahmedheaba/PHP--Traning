@@ -132,6 +132,10 @@ $addTenNum = array_map(function($item){return $item + 10 ;}, $nums);
 echo '<pre>';
 print_r($addTenNum);
 echo '</pre>';
+
+function addWelcome(){
+    echo "Welcome To My Website";
+}
 // $addFiveResult = array_map('addFive', $nums);
 // echo '<pre>';
 // print_r($addFiveResult);
